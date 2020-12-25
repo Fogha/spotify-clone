@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #fff;
+  color: grey;
+  border-radius: 99px;
+  flex: 0.3;
+  min-width: 80px;
+}
+
+.header__left > input {
+  border: none;
+  width: 100%;
+  margin: 0 5px;
+  flex: 1;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 180px;
+  padding-left: 3px;
+  background-color: #040404;
+  border-radius: 99px;
+}
+
+.header__right > h4 {
+  margin: 0 10px;
+}
+
+.header__right > ArrowDropDownOutlinedIcon{
+  height: 40px;
+  width: 40px;
+}
